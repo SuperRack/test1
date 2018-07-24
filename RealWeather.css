@@ -1,0 +1,68 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image:
+    linear-gradient(to bottom,rgb(13,104,188),rgb(114,173,224));
+    text-align: center;
+    color: white;
+    /*开启弹性布局*/
+    display: flex;
+    /*定义弹性布局子元素的排列方式为竖直排列*/
+    flex-direction: column;
+    /*定义弹性布局中，每个子元素之间有空隙的分布*/
+    justify-content: space-between;
+    overflow: hidden;
+}
+header{
+    font-size: 19px;
+    /*设置元素与元素之间的空隙的大小*/
+    line-height: 60px;
+}
+
+/*找到main标签中，class为icon的标签*/
+main .icon{
+    background-image: url(days/xue.png);
+    height: 128px;
+    background-repeat: no-repeat;
+    /*水平方向，垂直方向*/
+    background-position: center center;
+}
+main .tempers{
+    font-size: 32px;
+}
+main .weather{
+    font-size: 17px;
+}
+main .wind{
+    font-size: 13px;
+    /*修改元素与元素间缝隙*/
+    line-height: 200%;
+}
+footer{
+    /*margin: 0 auto;*/
+    /*内边距*/
+    padding: 40px 0;
+    /*margin: 150px 0;*/
+    /*width: 90%;*/
+    font-size: 13px;
+}
+section{
+    width: 33.333333%;
+    float: left;
+    border-right: solid 1px lightgray;
+    /* box-sizing,该属性允许你以某种方式定义某些元素，以适应指定区
+    域
+    box可以叫做盒子模型，盒子模型默认设定的宽度为内容的宽度，
+    但是展现出来的宽度是 内容宽度＋内边距＋外边距
+    border-box的意思为，将宽度设定为，内容宽度＋内边距＋外边距*/
+    box-sizing: border-box;
+}
+section .icon{
+    height: 60px;
+    background-image: url(days/duoyun.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+}
