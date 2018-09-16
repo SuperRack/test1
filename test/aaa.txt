@@ -25,7 +25,9 @@ git pull origin master
 	git merge dev	合并分支
   ----------------------------------------
  git reset --hard dev;
- git push --force origin master
+ git pull --force origin master
 
 
  这是新的文件
+
+ 之这之 之这
