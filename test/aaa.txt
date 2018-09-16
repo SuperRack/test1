@@ -23,3 +23,4 @@ git pull origin master
 9、合并分支，在合并分支的时候，需要合并到哪个分支，就要先切换到哪个分支
 	git checkout master
 	git merge dev	合并分支
+  ----------------------------------------
