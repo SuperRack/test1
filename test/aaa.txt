@@ -11,3 +11,15 @@ git config --system --unset credential.helper
 之后你在push就会提示输入名称和密码
 所以我们需要先同步一下
 git pull origin master
+6、更新项目
+	git push origin master
+7、创建分支
+	git checkout -b dev
+	等于：
+	git branch dev
+	git checkout dev
+8、切换分支
+	git checkout dev
+9、合并分支，在合并分支的时候，需要合并到哪个分支，就要先切换到哪个分支
+	git checkout master
+	git merge dev	合并分支
