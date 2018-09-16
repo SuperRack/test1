@@ -1,1 +1,13 @@
 moooooooooooo
+git push origin master
+git remote add origin 仓库的地址
+
+2、查询用户信息
+git config --list
+3、如果push遇到在输入密码是熟错后，就会报这个错误fatal: Authentication failed for
+
+解决办法：
+git config --system --unset credential.helper
+之后你在push就会提示输入名称和密码
+所以我们需要先同步一下
+git pull origin master
